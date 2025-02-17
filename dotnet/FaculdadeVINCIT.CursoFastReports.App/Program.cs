@@ -25,4 +25,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.MapControllers();
+
+app.UseCors(cors => {
+    cors.AllowAnyHeader()
+        .AllowAnyOrigin()
+        .AllowAnyMethod();
+});
 app.Run();

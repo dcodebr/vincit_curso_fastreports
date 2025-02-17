@@ -7,7 +7,7 @@ namespace FaculdadeVINCIT.CursoFastReports.Service.Relatorio;
 
 public class RelatorioService
 {
-    private string pathFolder => @"C:\Users\Alex Rocha\Desktop\Curso Fast Reports\_relatorios";
+    private string pathFolder => @"C:\Users\Alex Rocha\Desktop\vincit_curso_fastreports\_relatorios\";
     public async Task<RelatorioModel[]> Listar()
     {
         return await Task.Run(() => {

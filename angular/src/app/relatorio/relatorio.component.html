@@ -1,0 +1,29 @@
+<h1 class="mt-4">Relatórios</h1>
+<div class="container-fluid px-4">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table me-1"></i>
+            Relatórios de Cadastro
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Nome</th>
+                    <th>Arquivo</th>
+                    <th>Ações</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let item of relatorios">
+                    <th scope="row" class="text-align align-middle">{{item.id}}</th>
+                    <td class="text-align align-middle">{{item.nome}}</td>
+                    <td class="text-align align-middle">{{item.fileName}}</td>
+                    <td class="text-align align-middle"><button class="btn btn-sm btn-primary">Imprimir</button></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>

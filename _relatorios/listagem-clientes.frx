@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Report ScriptLanguage="CSharp" ReportInfo.Created="10/02/2023 04:15:27" ReportInfo.Modified="02/09/2025 03:41:30" ReportInfo.CreatorVersion="2025.1.0.0">
+<Report ScriptLanguage="CSharp" ReportInfo.Created="10/02/2023 04:15:27" ReportInfo.Modified="02/17/2025 03:10:44" ReportInfo.CreatorVersion="2025.1.0.0">
   <Dictionary>
-    <SQLiteDataConnection Name="Connection" ConnectionString="rijcmlq/fw73ag4XjLnAu0EFMCP4HXwGLqRDLHkr6nnrSR3yIoek0/riIyuHfEkie0gUlseZXN1aZ3JB1Kp44waW3H5+8rtf0TQk/vRu5kgd11KBouDQNnjCsDPWVddLy25ogYt">
+    <SQLiteDataConnection Name="Connection" ConnectionString="rijcmlq/fw73ag4XjLnAu0EFMCP4HXwGLqRDLHkr6nnrSR3yIpjxTYyG60JLxQXkE/rwnrZwCHYgO5K8LAqE5no7n2CCEQBvTx0PJsPhLeJeYCq9fAV5gobk6I1/isrgSftW5vJ8Ng5IdpSA+siTQs9SJiHoQ==">
       <TableDataSource Name="cliente" DataType="System.Int32" Enabled="true" TableName="cliente">
         <Column Name="id" DataType="System.Int64"/>
         <Column Name="nome" DataType="System.String"/>
@@ -40,7 +40,7 @@
       <TextObject Name="Text4" Left="170.1" Top="75.6" Width="538.65" Height="18.9" Text="[configempresa.endereco]" HorzAlign="Right" Font="Arial, 8pt"/>
       <TextObject Name="Text5" Left="170.1" Top="94.5" Width="538.65" Height="18.9" Text="[configempresa.telefone]" HorzAlign="Right" Font="Arial, 8pt"/>
     </ReportTitleBand>
-    <PageHeaderBand Name="PageHeader1" Top="116.6" Width="718.2" Height="39.8">
+    <PageHeaderBand Name="PageHeader1" Top="117.4" Width="718.2" Height="39.8">
       <TextObject Name="Text11" Left="9.45" Top="9.45" Width="37.8" Height="18.9" Text="#" HorzAlign="Right" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/>
       <TextObject Name="Text12" Left="56.7" Top="9.45" Width="151.2" Height="18.9" Text="Nome" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/>
       <TextObject Name="Text13" Left="217.35" Top="9.45" Width="132.3" Height="18.9" Text="Apelido" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/>
@@ -48,17 +48,17 @@
       <TextObject Name="Text15" Left="595.35" Top="9.45" Width="113.4" Height="18.9" Text="Telefone" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/>
       <LineObject Name="Line1" Top="30.35" Width="718.2"/>
     </PageHeaderBand>
-    <DataBand Name="Data1" Top="159.6" Width="718.2" Height="18.9" DataSource="cliente">
+    <DataBand Name="Data1" Top="161.2" Width="718.2" Height="18.9" DataSource="cliente">
       <TextObject Name="Text10" Left="595.35" Width="113.4" Height="18.9" Text="[cliente.telefone]" Font="Arial, 8pt"/>
       <TextObject Name="Text8" Left="217.35" Width="132.3" Height="18.9" Text="[cliente.pseudonimo]" Font="Arial, 8pt"/>
       <TextObject Name="Text9" Left="359.1" Width="226.8" Height="18.9" Text="[cliente.endereco]" Font="Arial, 8pt"/>
       <TextObject Name="Text6" Left="9.45" Width="37.8" Height="18.9" Text="[cliente.id]" HorzAlign="Right" Font="Arial, 8pt"/>
       <TextObject Name="Text7" Left="56.7" Width="151.2" Height="18.9" Text="[cliente.nome]" Font="Arial, 8pt"/>
     </DataBand>
-    <ReportSummaryBand Name="ReportSummary1" Top="181.7" Width="718.2" Height="37.8">
+    <ReportSummaryBand Name="ReportSummary1" Top="184.1" Width="718.2" Height="37.8">
       <TextObject Name="Text16" Left="481.95" Top="9.45" Width="226.8" Height="18.9" Text="Total de Clientes: [CountClientes]" HorzAlign="Right" VertAlign="Bottom" Font="Arial, 8pt, style=Bold"/>
       <LineObject Name="Line2" Top="9.45" Width="718.2"/>
     </ReportSummaryBand>
-    <PageFooterBand Name="PageFooter1" Top="222.7" Width="718.2" Height="28.35"/>
+    <PageFooterBand Name="PageFooter1" Top="225.9" Width="718.2" Height="28.35"/>
   </ReportPage>
 </Report>
