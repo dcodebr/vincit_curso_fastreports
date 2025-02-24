@@ -20,7 +20,7 @@
                     <th scope="row" class="text-align align-middle">{{item.id}}</th>
                     <td class="text-align align-middle">{{item.nome}}</td>
                     <td class="text-align align-middle">{{item.fileName}}</td>
-                    <td class="text-align align-middle"><button class="btn btn-sm btn-primary">Imprimir</button></td>
+                    <td class="text-align align-middle"><button class="btn btn-sm btn-primary" [routerLink]="[item.id]">Imprimir</button></td>
                   </tr>
                 </tbody>
               </table>
