@@ -1,9 +1,10 @@
 # Projeto FastReport em Angular
 Contém as instruções necessárias para criar o projeto em @angular/CLI.
 Requisitos:
- - node.js: v22.13.1
+ - node.js: [v22.13.1](https://nodejs.org/pt)
  - npm: 11.1.0
- - Angular CLI: 19.1.6 ()
+ - Angular CLI: [19.1.6](https://angular.dev/)
+ - Template: [sb-admin 09](https://startbootstrap.com/previews/sb-admin)
 
 ## Projeto em Angular
 
