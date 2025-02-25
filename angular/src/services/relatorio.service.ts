@@ -3,6 +3,7 @@ import { Observable } from "rxjs";
 import { Relatorio } from "../app/models/relatorio.model";
 import { Injectable } from "@angular/core";
 
+//Não esquecer o Injectable
 @Injectable({
     providedIn: 'root'
 })

@@ -25,7 +25,7 @@ public class RelatorioController : ControllerBase
     public async Task<IActionResult> Post(long id)
     {
         var pdfArrayBytes = await RelatorioService.Gerar(id);
-        var result = File(pdfArrayBytes, "application/pdf", "listagem-clientes.pdf");
+        var result = File(pdfArrayBytes, "application/pdf", "report-pdf.pdf");
         return result;
     }
 }
